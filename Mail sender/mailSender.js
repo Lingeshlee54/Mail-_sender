@@ -12,7 +12,7 @@ const composemail = {
     from:'your gmail address',
     to  :'To whom ',
     subject : 'Testing app',
-    text : 'Hii , Are you aspiring to be a software developer? ok i got it :) . Dont waste your time .Just join the "JIVRUS Academy" and start your path.Thank you',
+    text : 'Hii ,I am Lingesh ,I used the nodemailer package to make a mail,sent through node.js. This is the fifth task of Mean Stack Developer .Thank you',
 };
 
 sender.sendMail(composemail,(error,info)=>{
